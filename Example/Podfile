@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'RxASControlEvent_Example' do
+  pod 'RxASControlEvent', :path => '../'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Texture'
+  target 'RxASControlEvent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
